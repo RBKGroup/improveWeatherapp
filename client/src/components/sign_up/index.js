@@ -1,7 +1,7 @@
 import React from "react";
-import Login from "./../log_in/index.js";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import axios from "axios";
+// import Login from "./../log_in/index.js";
+import { BrowserRouter as Router } from "react-router-dom";
+// import axios from "axios";
 import "./register.css";
 class SignUp extends React.Component {
   constructor(props) {

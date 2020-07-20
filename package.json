@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+
+    
   },
   "repository": {
     "type": "git",
@@ -28,5 +31,8 @@
     "mongoose-type-email": "^1.0.12",
     "nodemon": "^2.0.4",
     "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.2.1"
   }
 }

@@ -7,7 +7,7 @@ const api = {
 };
 
 function Weathers() {
-  var className = "Weathers";
+  // var className = "Weathers";
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState({});
 
